@@ -34,11 +34,11 @@ The means of the components are: [0, 0], [0, 4], [4, 0], [4, 4].
     <img src="https://user-images.githubusercontent.com/91596609/154937363-d39a87c6-b9f6-40b0-92da-c17ce581ae18.png" width="400" alt="Scenario"/>
 </p>
 
+## Standard Gaussian Mixture Models
 
-
-![test_1](https://user-images.githubusercontent.com/91596609/154937345-8f96048c-c66a-4fbf-81d9-b290ec8db4b4.png)
-![test_2](https://user-images.githubusercontent.com/91596609/154937363-d39a87c6-b9f6-40b0-92da-c17ce581ae18.png)
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/91596609/154938235-873dba76-ce98-4848-9aaf-1ba39dfd4a68.png" width="400" alt="Scenario"/>
+</p>
 
 ## Credits
 
