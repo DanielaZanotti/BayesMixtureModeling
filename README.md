@@ -4,7 +4,7 @@
     <img src="https://i.imgur.com/mPb3Qbd.gif" width="180" alt="Politecnico di Milano"/>
 </p>
 
-## For an extensive explaination we suggest to refer to the Report.
+## For an exhaustive explaination we suggest to refer to the Report.
 
 ## Overview
 
