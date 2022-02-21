@@ -50,13 +50,17 @@ In order to sample from the posterior distributions we use Gibbs sampling, compu
 <p align="center">
     <img src="https://user-images.githubusercontent.com/91596609/154939543-6f4e6fd7-e77a-43af-87d9-193c4775afad.png" width="400" alt="Scenario"/>
     <img src="https://user-images.githubusercontent.com/91596609/154939550-1976c02b-d891-4f29-98f2-7cdecb493a89.png" width="400" alt="Scenario"/>
-    ciaoooo
 </p>
-
+<p align="center">
+    Frequencies of estimated clusters during the iterations and best clustering w.r.t. Binder’s loss on simulated dataset
+</p>
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/91596609/154939560-733c4eb6-9f5d-4082-90f3-ee907a62524a.png" width="400" alt="Scenario"/>
     <img src="https://user-images.githubusercontent.com/91596609/154939571-d4601939-5109-4ca1-9519-218e690b6698.png" width="400" alt="Scenario"/>
+</p>
+<p align="center">
+    Frequencies of estimated clusters during the iterations and best clustering w.r.t. Binder’s loss on Old Faithful dataset
 </p>
 
 ## Credits
