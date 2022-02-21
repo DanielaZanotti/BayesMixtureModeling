@@ -21,7 +21,8 @@ Mixture Model is a widespread probabilistic model that finds application in nume
 In this report we want to address this problem by introducing a penalization term for the joint prior of the component-specific parameters, i.e. mean μ and shape Σ of each cluster. This penalization is based on the sum of Wasserstein distances among all the possible couple (μh,Σh). 
 This metric is a sensible choice because it accounts for the similarity between two distribution in terms of location but also in terms of shape. In this way the Wasserstein distance can be large even if the distributions are centered in the same point because they can have different shape. This new model is then called Repulsive Mixture Model due to its behaviour.
 
-Alongside of our effort to program this Repulsive Mixture Model we also pursued a parallel objective to implement all the models in a computationally efficient way, relying on the Python High Performance Computing library JAX. Thanks to the Just-in-Time code compilation feature, we are able to compile the code and obtain much faster computations. For example, before the optimization a typical run of 4000 total iterations would take 60 minutes. 
+Alongside of our effort to program this Repulsive Mixture Model we also pursued a parallel objective to implement all the models in a computationally efficient way, relying on the Python High Performance Computing library JAX. 
+Thanks to the Just-in-Time code compilation feature, we are able to compile the code and obtain much faster computations. For example, before the optimization a typical run of 4000 total iterations would take 60 minutes. 
 After optimizing the code, this takes just 20 seconds, yielding a speed up of around 180 times.
 
 ## Test Datasets
@@ -36,7 +37,7 @@ The means of the components are: [0, 0], [0, 4], [4, 0], [4, 4].
 
 ## Standard Gaussian Mixture Models
 
-# Model
+### Model
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/91596609/154938235-873dba76-ce98-4848-9aaf-1ba39dfd4a68.png" width="400" alt="Scenario"/>
@@ -45,7 +46,7 @@ The means of the components are: [0, 0], [0, 4], [4, 0], [4, 4].
 Moreover, we set H = 15 as an upper bound for the number of components. This is justified by the fact that the datasets considered have a low true number of components, and so we do not want the algorithm to generate too many clusters.
 In order to sample from the posterior distributions we use Gibbs sampling, computing the full conditionals of the model.
 
-# Results
+### Results
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/91596609/154939543-6f4e6fd7-e77a-43af-87d9-193c4775afad.png" width="400" alt="Scenario"/>
@@ -62,6 +63,23 @@ In order to sample from the posterior distributions we use Gibbs sampling, compu
 <p align="center">
     Frequencies of estimated clusters during the iterations and best clustering w.r.t. Binder’s loss on Old Faithful dataset
 </p>
+
+## Gaussian Mixture Models with the Wasserstein distance
+
+In the case of location-scale family of distribution we have a closed form for the Wasserstein distance, which is
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/91596609/155035482-2371dbcb-b23e-4224-b31c-73cf7abfb685.png" width="400" alt="Scenario"/>
+</p>
+where μX and μY denote the means of the two Gaussians, while ΣX and ΣY denote the corresponding covariance matrices.
+
+## Team
+
+- Manuel Bressan [[Github](https://github.com/manubre98)] 
+- Leonardo Perelli [[Github](https://github.com/LeoPerelli)]
+- Federico Ravanetti
+- Sebastiano Rossi [[Github](https://github.com/Seb1198)]
+- Edward Wiels
+- Daniela Zanotti [[Github](https://github.com/DanielaZanotti)] 
 
 ## Credits
 
