@@ -36,8 +36,27 @@ The means of the components are: [0, 0], [0, 4], [4, 0], [4, 4].
 
 ## Standard Gaussian Mixture Models
 
+# Model
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/91596609/154938235-873dba76-ce98-4848-9aaf-1ba39dfd4a68.png" width="400" alt="Scenario"/>
+</p>
+
+Moreover, we set H = 15 as an upper bound for the number of components. This is justified by the fact that the datasets considered have a low true number of components, and so we do not want the algorithm to generate too many clusters.
+In order to sample from the posterior distributions we use Gibbs sampling, computing the full conditionals of the model.
+
+# Results
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/91596609/154939543-6f4e6fd7-e77a-43af-87d9-193c4775afad.png" width="400" alt="Scenario"/>
+    <img src="https://user-images.githubusercontent.com/91596609/154939550-1976c02b-d891-4f29-98f2-7cdecb493a89.png" width="400" alt="Scenario"/>
+    ciaoooo
+</p>
+
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/91596609/154939560-733c4eb6-9f5d-4082-90f3-ee907a62524a.png" width="400" alt="Scenario"/>
+    <img src="https://user-images.githubusercontent.com/91596609/154939571-d4601939-5109-4ca1-9519-218e690b6698.png" width="400" alt="Scenario"/>
 </p>
 
 ## Credits
