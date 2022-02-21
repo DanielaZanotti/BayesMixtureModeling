@@ -12,8 +12,11 @@ Conventional Bayesian posterior inference on cluster-specific parameters struggl
 As an alternative, Repulsive Mixture Models generate the components from a repulsive process that naturally favours separation of clusters.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/91596609/141163222-2d8e2893-cc11-42a7-9f10-31366280264e.png" width="400" alt="Scenario"/>
+    <img src="https://user-images.githubusercontent.com/91596609/154936048-3440ad25-d609-4dee-b460-a3bbd28d3262.png" width="400" alt="Scenario"/>
+    <img src="https://user-images.githubusercontent.com/91596609/154936064-91982abe-a572-495d-8c5e-f772376e78e8.png" width="400" alt="Scenario"/>
 </p>
+<img width="380" alt="Overview-2" src="https://user-images.githubusercontent.com/91596609/154936048-3440ad25-d609-4dee-b460-a3bbd28d3262.png">
+<img width="393" alt="Overview-4" src="https://user-images.githubusercontent.com/91596609/154936064-91982abe-a572-495d-8c5e-f772376e78e8.png">
 
 Mixture Model is a widespread probabilistic model that finds application in numerous different areas from density estimation, pattern identification, feature selection to clustering and many other more. Many times sets of independent and identically distributed observations cannot be described by a single distribution, but a combination of a small number of distributions belonging to the same parametric family is needed. In our report we will focus on the clustering problem. Bayesian clustering has been widely studied both from a model-based and non-parametric perspective, for example one can refer to Binder (1978) or Quintana & Iglesias (2003). By introducing a latent variable in the simple Gaussian Mixture Model we can identify the belonging of each point to a cluster.
 
