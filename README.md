@@ -4,6 +4,8 @@
     <img src="https://i.imgur.com/mPb3Qbd.gif" width="180" alt="Politecnico di Milano"/>
 </p>
 
+## For an extensive explaination we suggest to refer to the Report.
+
 ## Overview
 
 Mixture Models typically find application in density estimation and clustering problems.
